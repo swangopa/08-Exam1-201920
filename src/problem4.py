@@ -74,9 +74,9 @@ def problem4(number_of_stairs, step_size, starting_point, window):
     #            of the stair steps.
     # -------------------------------------------------------------------------
     window= rg.RoseWindow(400,400)
-    number_of_stairs=rg.Line(-400,400)
-    number_of_stairs(8)
-    step_size(40)
+    number_of_stairs=rg.Line
+    number_of_stairs=rg.Line(16)
+    rg.Line(0,16)
     window.render()
 
 # -----------------------------------------------------------------------------

@@ -295,6 +295,10 @@ def problem3b(m, r):
     # TODO: 4. Implement and test this function.
     #          Tests have been written for you (above).
     ###########################################################################
+    for k in range(m,r):
+        print(m/((r+1)**k))
+
+    return total
 
 
 ###############################################################################
